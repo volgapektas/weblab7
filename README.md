@@ -12,7 +12,7 @@ src/store: Zustand cartStore with localStorage syncing.
 src/components: Common UI components like Layout, NavBar, ProductCard, ProtectedRoute.  
 src/pages: Pages for Home, ProductList, ProductDetail, Cart, Login, NotFound.
 
-## Answers to Reasoning Questions (Section 10)
+## Answers to Reasoning Questions
 
 1. State choices  
    User session stays in Context while cart items live in Zustand store because of update frequency. Filters stay in URL params and product list stays in local state with useFetch. Theme preference is stored directly in localStorage to survive page reloads.
